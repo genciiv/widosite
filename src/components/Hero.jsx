@@ -43,12 +43,12 @@ const Hero = () => {
       </div>
 
       {/* Right column */}
-      <div className="w-full md:w-1/2 space-y-8">
-        <div>
+      <div className="w-full md:w-1/2 mt-16 md:mt-0 pl-0 md:pl-12">
+        <div className="relative">
           <img
             src={heroImage}
             alt=""
-            className="rounded-lg relative z-10 hover:scale-[1.02]"
+            className="rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300"
           />
         </div>
       </div>
