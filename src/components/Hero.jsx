@@ -45,7 +45,11 @@ const Hero = () => {
       {/* Right column */}
       <div className="w-full md:w-1/2 space-y-8">
         <div>
-          <img src={heroImage} alt="" />
+          <img
+            src={heroImage}
+            alt=""
+            className="rounded-lg relative z-10 hover:scale-[1.02]"
+          />
         </div>
       </div>
     </section>
